@@ -187,8 +187,92 @@ body{
 }
 
 @media only screen and (max-width: 576px) {
+    .box-item{
+        height: 210px;
+    }
+    .hajm-see{
+        font-size: 10px;
+    }
+    .kod-mahsol{
+        width: 25px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .title-box{
+        font-size: 18px;
+    }
+    .buy-link{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+    .price-box{
+        font-size: 8px;
+    }
+   
+   
     .linkItem a{
         padding-left: 18px;
+    }
+    .boxs{
+        gap: 10px;
+    }
+    .copy-right{
+        font-size: 10px;
+    }
+    .title-naheva{
+        font-size: 18px;
+    }
+    .text-naheva{
+        width: 300px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 380px) {
+    .box-item{
+        height: 170px;
+    }
+    .hajm-see{
+        margin-top: -42px;
+        font-size: 8px;
+    }
+    .kod-mahsol{
+        width: 18px;
+        height: 18px;
+        font-size: 6px;
+        margin-top: -6px;
+        margin-left: -6px;
+        padding-top: 2px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .title-box{
+        font-size: 14px;
+        margin-top: 14px;
+    }
+    .buy-link{
+        font-size: 12px;
+        margin-top: 20px;
+        padding: -10px -10px;
+    }
+    .price-box{
+        font-size: 6px;
+        
+    }
+    .title-naheva{
+        font-size: 18px;
+    }
+    .text-naheva{
+        font-size: 10px;
+        width: 200px;
+        display: block;
+    }
+   
+    .linkItem a{
+        padding-left: 6px;
+        font-size: 12px;
     }
     .boxs{
         gap: 10px;
@@ -197,6 +281,65 @@ body{
         font-size: 12px;
     }
     .text-naheva{
-        width: 400px;
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .box-item{
+        height: 140px;
+        overflow: auto;
+    }
+
+    .hajm-see{
+        margin-top: -52px;
+        font-size: 6px;
+    }
+    .kod-mahsol{
+        width: 16px;
+        height: 16px;
+        font-size: 5px;
+        margin-top: -6px;
+        margin-left: -6px;
+        padding-top: 2px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .title-box{
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .buy-link{
+        font-size: 8px;
+        margin-top: 20px;
+        padding: 4px 8px;
+        margin-top: 5px;
+    }
+    .price-box{
+        font-size: 5px;
+    }
+    .title-naheva{
+        font-size: 18px;
+    }
+    .text-naheva{
+        font-size: 10px;
+        width: 200px;
+        display: block;
+    }
+   
+    .linkItem a{
+        padding-left: 6px;
+        font-size: 12px;
+    }
+    .boxs{
+        gap: 10px;
+    }
+    .copy-right{
+        font-size: 6px;
+    }
+    .text-naheva{
+        width: 200px;
     }
 }
