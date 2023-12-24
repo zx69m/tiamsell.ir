@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "sahel-ttf";
+    src: url("../fonts/Sahel.ttf") format(truetype); 
+
+    font-family: "sahel-bold";
+    src: url("../fonts/Sahel-Bold.ttf") format(truetype); 
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: "sahel-bold" , "tohoma" ;
+    background-color:#080b0c;
+}
+.header{
+    background-color: black;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: -2px -2px 20px #ffffff3d;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.flex-y1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+.head-link-box{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.linkItem{
+    list-style-type: none;
+}
+.linkItem a{
+    color: #fff;
+    text-decoration: none;
+    font-family: "sahel-bold" ;
+    color: orange;
+    font-size: 20px;
+    font-weight: 550;
+}
+.linkItem a:hover{
+    text-decoration: underline;
+}
+.logo-head{
+    max-width: 50px;
+    max-height: 50px;
+}
+.logo-head img{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    margin-top: 100px;
+}
+.boxs{
+    width: 100%;
+
+   display: grid;
+   gap: 100px;
+   grid-template-columns: repeat(3 , 1fr);
+   
+}
+.box-item{
+   height: 260px;
+   background-color: rgba(255, 255, 255, 0.199) ;
+    box-shadow: 0px 0px 10px rgba(0, 0, 255, 0.582);
+   border-radius: 10px;
+   padding: 10px;
+}
+.flex-y2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hajm-see{
+    color: rgba(255, 0, 0, 0.938);
+    margin-bottom: -70px;
+}
+.kod-mahsol{
+    background-color: rgba(255, 255, 255, 0) ;
+    box-shadow: 0px 0px 10px rgba(152, 152, 255, 0.548);
+    color: #fff;
+    padding: 2px 6px;
+    border-radius: 100%;
+}
+
+.title-box{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    color: #cccccc;
+
+}
+.buy-link{
+    display: block;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+    background-color: rgba(99, 206, 255, 0.849);
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 8px 26px;
+    margin-top: 12px;
+}
+.price-box{
+    color: #dadada;
+    font-size: 12px;
+}
+.price-box span{
+    color: #030303;
+    
+}
+
+.title-naheva{
+    margin-top: 60px;
+    color: #cccccc;
+    font-size: 30px;
+}
+.text-naheva{
+    color: #afafaf;
+    width: 500px;
+}
+.tel-link{
+    text-decoration: none;
+    color: rgb(0, 102, 255);
+}
+.copy-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #a0a0a0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.right span{
+    color: red;
+}
+/* Project Responsive */
+@media only screen and (max-width: 1600px) {
+    .linkItem a{
+        padding-left: 50px;
+        
+        
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .linkItem a{
+        padding-left: 40px;
+        
+        
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .linkItem a{
+        padding-left: 30px;
+    }
+    .boxs{
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .linkItem a{
+        padding-left: 24px;
+    }
+    .boxs{
+        gap: 10px;
+    }
+    .text-naheva{
+        width: 400px;
+    }
+    .copy-right{
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .linkItem a{
+        padding-left: 18px;
+    }
+    .boxs{
+        gap: 10px;
+    }
+    .copy-right{
+        font-size: 12px;
+    }
+    .text-naheva{
+        width: 400px;
+    }
+}
