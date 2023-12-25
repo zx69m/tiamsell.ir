@@ -229,7 +229,7 @@ body{
 }
 @media only screen and (max-width: 380px) {
     .box-item{
-        height: 170px;
+        height: 165px;
     }
     .hajm-see{
         margin-top: -42px;
@@ -271,14 +271,14 @@ body{
     }
    
     .linkItem a{
-        padding-left: 6px;
-        font-size: 10px;
+        padding-left: 5px;
+        font-size: 8px;
     }
     .boxs{
         gap: 10px;
     }
     .copy-right{
-        font-size: 12px;
+        font-size: 8px;
     }
     .text-naheva{
         width: 200px;
@@ -286,7 +286,7 @@ body{
 }
 @media only screen and (max-width: 320px) {
     .box-item{
-        height: 140px;
+        height: 135px;
         overflow: auto;
     }
 
@@ -331,7 +331,7 @@ body{
    
     .linkItem a{
         padding-left: 6px;
-        font-size: 8px;
+        font-size: 7px;
     }
     .boxs{
         gap: 10px;
