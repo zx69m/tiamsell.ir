@@ -25,6 +25,14 @@ body{
     width: 80%;
     margin: 0 auto;
 }
+.title-30day{
+    color: #e2e2e2;
+    margin-bottom: 1rem;
+}
+
+
+
+
 .flex-y1{
     display: flex;
     align-items: center;
@@ -59,14 +67,13 @@ body{
     height: 100%;
 }
 .main{
-    margin-top: 100px;
+    margin-top: 70px;
 }
 .boxs{
     width: 100%;
-
    display: grid;
-   gap: 100px;
-   grid-template-columns: repeat(3 , 1fr);
+   gap: 30px;
+   grid-template-columns: repeat(4 , 1fr);
    
 }
 .box-item{
@@ -168,6 +175,8 @@ body{
     }
     .boxs{
         gap: 10px;
+        grid-template-columns: repeat(3 , 1fr);
+
     }
 }
 
@@ -177,6 +186,8 @@ body{
     }
     .boxs{
         gap: 10px;
+        grid-template-columns: repeat(2 , 1fr);
+
     }
     .text-naheva{
         width: 400px;
@@ -187,22 +198,28 @@ body{
 }
 
 @media only screen and (max-width: 576px) {
+    .title-30day{
+        text-align: center;
+        font-size: 1.2rem;
+    }
     .box-item{
         height: 210px;
+        width: 220px;
+        margin-right: 2.3rem;
     }
     .hajm-see{
-        font-size: 10px;
+        font-size: 11px;
     }
     .kod-mahsol{
-        width: 25px;
-        height: 25px;
-        font-size: 12px;
+        width: 22px;
+        height: 22px;
+        font-size: 10px;
     }
     .title-box{
-        font-size: 18px;
+        font-size: 20px;
     }
     .buy-link{
-        font-size: 12px;
+        font-size: 13px;
         margin-top: 20px;
     }
     .price-box{
@@ -211,10 +228,14 @@ body{
    
    
     .linkItem a{
-        padding-left: 18px;
+        padding-left: 14px;
+        font-size: 14px;
     }
     .boxs{
         gap: 10px;
+        grid-template-columns: repeat(1 , 1fr);
+       
+        
     }
     .copy-right{
         font-size: 10px;
