@@ -59,7 +59,7 @@ header{
   position: fixed;
   top:0; left:0; right:0;
   z-index: 1000;
-  background:#0d0b18f6;
+  background:#0d0b18;
   padding:0.5rem 9%;
   display: flex;
   align-items: center;
@@ -209,6 +209,67 @@ background-color: aqua;
   line-height: 4rem;
   text-shadow: 0px 0px 20px rgba(255, 116, 116, 0.671);
 }
+.flex--y4{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 1rem;
+  border-radius: 10px;
+}
+.good-pak{
+  margin-bottom: 4rem;
+}
+.good-pak h3{
+  text-align: center;
+  color: #ffffff;
+  font-size: 3rem;
+}
+.good-pak .box{
+  background-color: #272727;
+  border: 1px solid rgba(137, 43, 226, 0.63);
+  box-shadow: 0px 0px 10px rgba(137, 43, 226, 0.356);
+  backdrop-filter: blur(10px);
+  border-radius: 6px;
+  padding: 1.4rem;
+}
+.good-pak .box h5{
+  color: #0066ff;
+  font-weight: 100;
+  font-size: 3rem;
+  transform: skewY(5deg);
+  text-align: center;
+}
+.good-pak .box p{
+  color: #ffffff;
+  font-size: 1.5rem;
+  border-bottom: 1px solid #fff;
+  display: inline-block;
+}
+.good-pak .box i{
+  color: #a3a3a3f1;
+  display: block;
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+.good-pak .box span{
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+}
+.good-pak .box button{
+  display: block;
+  width: 100%;
+  border-radius: 6px;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+  cursor: pointer;
+}
+.good-pak .box button:hover{
+  background-color: var(--orange);
+  color: #fff;
+}
 /* media queries  */
 
 @media (max-width:991px){
@@ -268,7 +329,7 @@ background-color: aqua;
 
   .feature{
     display: block;
-    
+    margin-top: -4rem;
   }
   .feature .box{
     text-align: center;
@@ -293,9 +354,29 @@ background-color: aqua;
     padding: 1.5rem 3rem ;
     font-size: 1.5rem;
   }
-  .free-service{
-    margin-top: -55rem;
-    z-index: -1;
+  .good-pak h3{
+    font-size: 2rem;
+  }
+  .good-pak .box h5{
+
+    font-size: 2rem;
+  
+  }
+  .good-pak .box p{
+    font-size: 1rem;
+    
+  }
+  .good-pak .box i{
+    font-size: 1rem;
+  }
+  .good-pak .box span{
+
+    font-size: 1rem;
+
+  }
+  .good-pak .box button{
+    
+    font-size: 1.6rem;
   }
 }
 @media (max-width:576px){
@@ -441,5 +522,28 @@ background-color: aqua;
   #btnir , #btnmci , #btnritel , #btnadsl{
     width: 90px;
     font-size: 1.3rem;
+  }
+  .good-pak h3{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .good-pak .box h5{
+
+    font-size: 1.8rem;
+  
+  }
+  .good-pak .box p{
+    font-size: 0.8rem;
+    
+  }
+  
+  .good-pak .box span{
+
+    font-size: 0.8rem;
+
+  }
+  .good-pak .box button{
+    
+    font-size: 1.4rem;
   }
 }
