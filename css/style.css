@@ -364,11 +364,6 @@ background-color: aqua;
     font-size: 55%;
   }
 
-
-  section{
-    padding:2rem;
-  }
-
   .feature .box p{
     font-size: 1.2rem;
   }
@@ -386,14 +381,11 @@ background-color: aqua;
     margin-top: -1rem;
   }
   .service h5{
- 
-    font-size: 2rem;
-  
+    font-size: 2rem ;
   }
   .service p{
     font-size: 1.5rem;
-    
-    
+
   }
   .service .box i{
     font-size: 1.5rem;
